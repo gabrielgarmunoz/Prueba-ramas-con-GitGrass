@@ -1,0 +1,197 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">931e6030-ccb3-4a7b-a89a-99dcce8770cd</item>
+    <item name="Name" type_name="gh_string" type_code="10">Multiple Curves</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="6">
+        <item name="Description" type_name="gh_string" type_code="10">Solve intersection events for multiple curves.</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">b7d530a3-a093-467b-b071-95302c7c00a2</item>
+        <item name="Name" type_name="gh_string" type_code="10">Multiple Curves</item>
+        <item name="NickName" type_name="gh_string" type_code="10">MCX</item>
+        <item name="UseTasks" type_name="gh_bool" type_code="1">false</item>
+      </items>
+      <chunks count="7">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>7920</X>
+              <Y>-3152</Y>
+              <W>69</W>
+              <H>104</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>7951</X>
+              <Y>-3100</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="8">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Curves to intersect</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">00a769bf-d0d5-4590-8be2-964be2c94274</item>
+            <item name="Name" type_name="gh_string" type_code="10">Curves</item>
+            <item name="NickName" type_name="gh_string" type_code="10">C</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">b8679de3-99ca-4081-870a-6908db96ceb6</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>7922</X>
+                  <Y>-3150</Y>
+                  <W>14</W>
+                  <H>100</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>7930.5</X>
+                  <Y>-3100</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Intersection events</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">b4e61920-1160-4454-abf5-c55d41d39e69</item>
+            <item name="Name" type_name="gh_string" type_code="10">Points</item>
+            <item name="NickName" type_name="gh_string" type_code="10">P</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>7966</X>
+                  <Y>-3150</Y>
+                  <W>21</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>7976.5</X>
+                  <Y>-3140</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="1">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Index of first intersection curve</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">1b190188-4df0-496c-96bc-4d27c745d479</item>
+            <item name="Name" type_name="gh_string" type_code="10">Index A</item>
+            <item name="NickName" type_name="gh_string" type_code="10">iA</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>7966</X>
+                  <Y>-3130</Y>
+                  <W>21</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>7976.5</X>
+                  <Y>-3120</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="2">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Index of second intersection curve</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">f8bdace4-e404-4961-ab39-a6b05c1423d1</item>
+            <item name="Name" type_name="gh_string" type_code="10">Index B</item>
+            <item name="NickName" type_name="gh_string" type_code="10">iB</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>7966</X>
+                  <Y>-3110</Y>
+                  <W>21</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>7976.5</X>
+                  <Y>-3100</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="3">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Parameter on first curve</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">7d76952e-8c7a-4b81-a37d-aa2d5cc10871</item>
+            <item name="Name" type_name="gh_string" type_code="10">Param A</item>
+            <item name="NickName" type_name="gh_string" type_code="10">tA</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>7966</X>
+                  <Y>-3090</Y>
+                  <W>21</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>7976.5</X>
+                  <Y>-3080</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="4">
+          <items count="7">
+            <item name="Access" type_name="gh_int32" type_code="3">1</item>
+            <item name="Description" type_name="gh_string" type_code="10">Parameter on second curve</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">c35f666f-847c-40a2-a6f3-318f58522ae9</item>
+            <item name="Name" type_name="gh_string" type_code="10">Param B</item>
+            <item name="NickName" type_name="gh_string" type_code="10">tB</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>7966</X>
+                  <Y>-3070</Y>
+                  <W>21</W>
+                  <H>20</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>7976.5</X>
+                  <Y>-3060</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

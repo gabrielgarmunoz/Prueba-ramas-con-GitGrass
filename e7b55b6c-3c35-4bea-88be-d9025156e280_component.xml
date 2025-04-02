@@ -1,0 +1,86 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">a3371040-e552-4bc8-b0ff-10a840258e88</item>
+    <item name="Name" type_name="gh_string" type_code="10">Negative</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="5">
+        <item name="Description" type_name="gh_string" type_code="10">Compute the negative of a value.</item>
+        <item name="Hidden" type_name="gh_bool" type_code="1">true</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">e7b55b6c-3c35-4bea-88be-d9025156e280</item>
+        <item name="Name" type_name="gh_string" type_code="10">Negative</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Neg</item>
+      </items>
+      <chunks count="3">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>8212</X>
+              <Y>-3515</Y>
+              <W>61</W>
+              <H>41</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>8241</X>
+              <Y>-3494</Y>
+            </item>
+          </items>
+        </chunk>
+        <chunk name="param_input" index="0">
+          <items count="7">
+            <item name="Description" type_name="gh_string" type_code="10">Input value</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">171533cc-5bcd-44f1-a969-43908f8ee1dd</item>
+            <item name="Name" type_name="gh_string" type_code="10">Value</item>
+            <item name="NickName" type_name="gh_string" type_code="10">x</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="Source" index="0" type_name="gh_guid" type_code="9">afc0f165-96d7-41f5-a1b5-9c0e5ab7405c</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>8214</X>
+                  <Y>-3513</Y>
+                  <W>12</W>
+                  <H>37</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>8221.5</X>
+                  <Y>-3494.5</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+        <chunk name="param_output" index="0">
+          <items count="6">
+            <item name="Description" type_name="gh_string" type_code="10">Output value</item>
+            <item name="InstanceGuid" type_name="gh_guid" type_code="9">24ea5536-18c1-4b7c-aee0-0368a1f9e35c</item>
+            <item name="Name" type_name="gh_string" type_code="10">Result</item>
+            <item name="NickName" type_name="gh_string" type_code="10">y</item>
+            <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+            <item name="SourceCount" type_name="gh_int32" type_code="3">0</item>
+          </items>
+          <chunks count="1">
+            <chunk name="Attributes">
+              <items count="2">
+                <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                  <X>8256</X>
+                  <Y>-3513</Y>
+                  <W>15</W>
+                  <H>37</H>
+                </item>
+                <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                  <X>8263.5</X>
+                  <Y>-3494.5</Y>
+                </item>
+              </items>
+            </chunk>
+          </chunks>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

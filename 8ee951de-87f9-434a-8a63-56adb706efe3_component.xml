@@ -1,0 +1,36 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">2e3ab970-8545-46bb-836c-1c11e5610bce</item>
+    <item name="Name" type_name="gh_string" type_code="10">Integer</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="8">
+        <item name="Description" type_name="gh_string" type_code="10">Contains a collection of integer numbers</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">8ee951de-87f9-434a-8a63-56adb706efe3</item>
+        <item name="Mapping" type_name="gh_int32" type_code="3">1</item>
+        <item name="Name" type_name="gh_string" type_code="10">Integer</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Ejes virtuales guardados a 0</item>
+        <item name="Optional" type_name="gh_bool" type_code="1">false</item>
+        <item name="Source" index="0" type_name="gh_guid" type_code="9">097e7842-9737-483f-aeb4-6838e9b7a2e5</item>
+        <item name="SourceCount" type_name="gh_int32" type_code="3">1</item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes">
+          <items count="2">
+            <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+              <X>8701</X>
+              <Y>-2561</Y>
+              <W>166</W>
+              <H>20</H>
+            </item>
+            <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+              <X>8793.634</X>
+              <Y>-2550.156</Y>
+            </item>
+          </items>
+        </chunk>
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>

@@ -1,0 +1,35 @@
+<chunk name="Object" index="0">
+  <items count="2">
+    <item name="GUID" type_name="gh_guid" type_code="9">c552a431-af5b-46a9-a8a4-0fcbc27ef596</item>
+    <item name="Name" type_name="gh_string" type_code="10">Group</item>
+  </items>
+  <chunks count="1">
+    <chunk name="Container">
+      <items count="18">
+        <item name="Border" type_name="gh_int32" type_code="3">1</item>
+        <item name="Colour" type_name="gh_drawing_color" type_code="36">
+          <ARGB>150;0;255;255</ARGB>
+        </item>
+        <item name="Description" type_name="gh_string" type_code="10">A group of Grasshopper objects</item>
+        <item name="ID" index="0" type_name="gh_guid" type_code="9">295c40e2-2325-4de2-9932-394506c9f62c</item>
+        <item name="ID" index="1" type_name="gh_guid" type_code="9">bdba9fce-657b-404e-8395-571125fb95fb</item>
+        <item name="ID" index="2" type_name="gh_guid" type_code="9">2bf465c4-e51a-4f35-9a2d-5c04861d2201</item>
+        <item name="ID" index="3" type_name="gh_guid" type_code="9">6bfd46a8-a792-4527-b1bc-3c70c8bc3158</item>
+        <item name="ID" index="4" type_name="gh_guid" type_code="9">71dcf161-f877-4efc-980b-ec227a2b3162</item>
+        <item name="ID" index="5" type_name="gh_guid" type_code="9">c46a9ecf-2240-42ff-8b06-f4fa55266d23</item>
+        <item name="ID" index="6" type_name="gh_guid" type_code="9">9865532c-a573-4ded-999b-f14e65d63007</item>
+        <item name="ID" index="7" type_name="gh_guid" type_code="9">c4855b0a-b09b-4e11-8e79-86ef5e37962a</item>
+        <item name="ID" index="8" type_name="gh_guid" type_code="9">3ff2621d-e6cd-489e-b579-bb73d910d97c</item>
+        <item name="ID" index="9" type_name="gh_guid" type_code="9">f3ea8282-2fae-41cd-949b-28f091ac619c</item>
+        <item name="ID" index="10" type_name="gh_guid" type_code="9">3cc21c82-4ba3-4799-9be1-6abf9358034d</item>
+        <item name="ID_Count" type_name="gh_int32" type_code="3">11</item>
+        <item name="InstanceGuid" type_name="gh_guid" type_code="9">94c9a28a-e4e4-468e-ba20-779800c89223</item>
+        <item name="Name" type_name="gh_string" type_code="10">Group</item>
+        <item name="NickName" type_name="gh_string" type_code="10">Generación de los candidatos para los núcleos X e Y</item>
+      </items>
+      <chunks count="1">
+        <chunk name="Attributes" />
+      </chunks>
+    </chunk>
+  </chunks>
+</chunk>
